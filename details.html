@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rest Countries API</title>
+    <link rel="stylesheet" href="style.css" />
+    
+    
+  </head>
+  <body class="background--lm-bg">
+    <header class="background--lm-elements box-shadow">
+      <div class="container row header__row">
+        <h1 class="logo text--800 color--lm-clr">COUNTRY EXPLORER</h1>
+        <div class="switch row flex-center">
+          <ion-icon
+            class="switch__icon text--600 color--lm-clr"
+            name="moon-outline"
+          ></ion-icon>
+          <span class="color--lm-clr switch__text text--600">Dark Mode</span>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <div class="back_btn_box background--lm-elements box-shadow">
+          <a href="index.html" class="back_btn row">
+            <ion-icon
+              name="arrow-back"
+              class="back_btn_arrow text--600 color--lm-clr"
+            ></ion-icon>
+            <p class="color--lm-clr text--600 back_btn__text">Back</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="detail row fd--col"></div>
+      </div>
+    </section>
+
+    <div class="loading_indicator">
+      <img src="loading.gif" alt="" />
+    </div>
+
+    <script defer src="details.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
+
+
