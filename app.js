@@ -17,7 +17,7 @@ const getAPI = async (url) => {
     return data;
   } catch (error) {
     console.log(error);
-    alert(error.message);
+   // alert(error.message);
     throw error;
   }
 };
